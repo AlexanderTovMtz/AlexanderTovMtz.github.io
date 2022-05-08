@@ -7,9 +7,14 @@ const descriptionDOS = document.querySelector(".infoDOS h3");
 const sizesDOS = document.querySelector(".sizesDOS");
 
 const cuadro = document.querySelector(".cuadro")
+const gif = document.querySelector(".gifeva")
 
 cuadro.addEventListener("click", (e) => {
     cuadro.remove(".cuadro");
+})
+
+gif.addEventListener("click", (e) => {
+  document.location.reload(true);
 })
 
 //Moving Animation Event
