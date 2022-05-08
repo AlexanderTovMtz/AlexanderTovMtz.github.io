@@ -6,6 +6,12 @@ const sneakerDOS = document.querySelector(".sneakerDOS img");
 const descriptionDOS = document.querySelector(".infoDOS h3");
 const sizesDOS = document.querySelector(".sizesDOS");
 
+const cuadro = document.querySelector(".cuadro")
+
+cuadro.addEventListener("click", (e) => {
+    cuadro.remove(".cuadro");
+})
+
 //Moving Animation Event
 containerDOS.addEventListener("mousemove", (e) => {
   let xAxis = (window.innerWidth / 2 - e.pageX) / 0.1;
